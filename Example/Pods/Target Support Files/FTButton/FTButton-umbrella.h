@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "CustomButton.h"
 
 FOUNDATION_EXPORT double FTButtonVersionNumber;
 FOUNDATION_EXPORT const unsigned char FTButtonVersionString[];

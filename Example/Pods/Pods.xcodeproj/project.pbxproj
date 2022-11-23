@@ -9,30 +9,32 @@
 /* Begin PBXBuildFile section */
 		054D89AFA71538A2A5784AB34AE975B2 /* Pods-FTButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A5BCFFC1D5017D63CC09CA1DE082A7 /* Pods-FTButton_Example-dummy.m */; };
 		1665BDC5ED4C13164588F8355F5E9B0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2AA29B465EBA263D7EC6EA922FC85947 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 249D1E8BA87500BB684DB875D9524BA4 /* CustomButton.m */; };
+		2B2650F5CB477D94A9D11DC419EDE6A6 /* FTButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9F48D13D5A270311A6874B879FC05C /* FTButton-dummy.m */; };
 		4BFA786D2ABFBCEB1D404502BB565AB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		73B0DBD9BCAB9744199D3812FC7F2727 /* Pods-FTButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 155F1F1A402321094BC669A533F6F81A /* Pods-FTButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B7B5D7E8D0D0CCA66F42EA1AC4072D2 /* FTButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53CE0285094E70E4D43777044303E71C /* FTButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6D588BA7AADC884B855258B527DF8A7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B44B49494CA1145C4B70DE1647443783 /* ReplaceMe.m */; };
+		8A93F093F06C9C9D278FBCA95598B957 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8DFF7D046A0E6AC4EF4C9DC74248F /* ReplaceMe.m */; };
+		B21B997B23D90D84006B0DFAA11172A5 /* CustomButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B0BD16D26DC5EB9C7BF409BD1CB7A5C /* CustomButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD2D8DEC38F34C89EBED34480D314C37 /* Pods-FTButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D0FC67CF0948D0ABF52C04CA3AEF7B /* Pods-FTButton_Tests-dummy.m */; };
-		D2750FB0DCF88D7A0D382820B5FAE97C /* FTButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63133885713820A0CF48F9D4E0F561BF /* FTButton-dummy.m */; };
-		EB8D85B36AE82D516DEA65247BE566FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CCF94D8F26E4055061A5A274D9512791 /* FTButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5760EBEB1CBD4A51AEF0B3E3DE95E27 /* FTButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4EEC3EA57F3B8D60E68C5C10F962F80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		FAED53133A2B67E1124B32191D78784A /* Pods-FTButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B644F9AEDD66730085E19A79E4B0FEBD /* Pods-FTButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		74FEBB80BD9D38E0B6662B8FD1E95058 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B303EBA9C503869E8BBCD33E638D7613;
-			remoteInfo = FTButton;
-		};
-		85ECFDC2B3DF7B3334122471EFBD47AA /* PBXContainerItemProxy */ = {
+		34230082DD03C4A34D73B8DF1CF38621 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EB2E9CC8C6C366BCD708A3CBA379451B;
 			remoteInfo = "Pods-FTButton_Example";
+		};
+		7F345382204C0607B51E19C8CF006CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B303EBA9C503869E8BBCD33E638D7613;
+			remoteInfo = FTButton;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -41,32 +43,34 @@
 		03A5BCFFC1D5017D63CC09CA1DE082A7 /* Pods-FTButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTButton_Example-dummy.m"; sourceTree = "<group>"; };
 		04A2B6A5A3DA7269AA15AA911A151DF4 /* Pods-FTButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FTButton_Example.modulemap"; sourceTree = "<group>"; };
 		10620918EE41998CE75EA137D899E5CE /* Pods-FTButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FTButton_Tests.modulemap"; sourceTree = "<group>"; };
-		1466E2E8F04BCF6600CBB2CAEDAA237F /* FTButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FTButton-Info.plist"; sourceTree = "<group>"; };
 		155F1F1A402321094BC669A533F6F81A /* Pods-FTButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTButton_Example-umbrella.h"; sourceTree = "<group>"; };
-		36EDF02B48E8921B18CD0D42C9B41DB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		249D1E8BA87500BB684DB875D9524BA4 /* CustomButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomButton.m; path = FTButton/Classes/CustomButton.m; sourceTree = "<group>"; };
+		265F8E0C9D82BBEE47F36F8D11397AAF /* FTButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTButton.debug.xcconfig; sourceTree = "<group>"; };
+		3B0BD16D26DC5EB9C7BF409BD1CB7A5C /* CustomButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomButton.h; path = FTButton/Classes/CustomButton.h; sourceTree = "<group>"; };
 		48801F1086D06524984D3D8D440FAAB9 /* Pods-FTButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4E975FF9EDD17EC349C3AEB3370F3FBA /* FTButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FTButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		514E6D27732D3DA69A482C8E01138EE8 /* Pods-FTButton_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FTButton_Tests"; path = Pods_FTButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53CE0285094E70E4D43777044303E71C /* FTButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTButton-umbrella.h"; sourceTree = "<group>"; };
-		63133885713820A0CF48F9D4E0F561BF /* FTButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTButton-dummy.m"; sourceTree = "<group>"; };
+		5F9F48D13D5A270311A6874B879FC05C /* FTButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTButton-dummy.m"; sourceTree = "<group>"; };
+		636831A33349B5AADDC39CA2D701C98B /* FTButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FTButton-Info.plist"; sourceTree = "<group>"; };
 		66369553F53E04BD411C12CAC3D06619 /* Pods-FTButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTButton_Example-Info.plist"; sourceTree = "<group>"; };
 		66E0400D531F5E6EAFC89DAA6A8AE418 /* Pods-FTButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		717D307AF041E1CCD7949D07D9A92E9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6DF8DFF7D046A0E6AC4EF4C9DC74248F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FTButton/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		747827E7BC7174049DC25E4353A1479A /* FTButton */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FTButton; path = FTButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75016745729C69D8B4D812006652100B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		83ADDE23335CD9CE629F8FF5EA3ED31F /* Pods-FTButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8850DDD78A91B9E5FBED613A71A550ED /* Pods-FTButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		950F469C4A311AFC5F17A5565B825642 /* FTButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTButton.debug.xcconfig; sourceTree = "<group>"; };
+		8DD98EFB96B158B1EE79F6E437E8C607 /* FTButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTButton.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FF44B9D57CF2E9BB86BC9B1B2F21601 /* Pods-FTButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTButton_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B44B49494CA1145C4B70DE1647443783 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FTButton/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		B362A4D9711237D504DE52FC0883B4B2 /* FTButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FTButton.modulemap; sourceTree = "<group>"; };
 		B644F9AEDD66730085E19A79E4B0FEBD /* Pods-FTButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTButton_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BBC4E96C3F0C7E48DB68D15A1EF8CC95 /* FTButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTButton-prefix.pch"; sourceTree = "<group>"; };
-		C4B2F4FF1A0C205F56AD2960933A150C /* FTButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTButton.release.xcconfig; sourceTree = "<group>"; };
+		B8D52089760D406571CED0D061087265 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BEEF1B565DC2BF1D8A04498DF283D8E5 /* FTButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FTButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C41024DBD2EF927B8A205D8138F3FA8E /* FTButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTButton-prefix.pch"; sourceTree = "<group>"; };
 		D5D0FC67CF0948D0ABF52C04CA3AEF7B /* Pods-FTButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		D838CAA8F1233872340FDA1463FD9510 /* Pods-FTButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D8A8FAA385F6A44E2BFDEDBD64B2BACA /* Pods-FTButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E64AA8164330F76B354129F42E63C6C6 /* FTButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FTButton.modulemap; sourceTree = "<group>"; };
+		E5760EBEB1CBD4A51AEF0B3E3DE95E27 /* FTButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTButton-umbrella.h"; sourceTree = "<group>"; };
 		E9EC41DEEBCF0841BBAF4C2C194CDBCC /* Pods-FTButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F651B79F0FD5485F167B83F5D51E13AA /* Pods-FTButton_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FTButton_Example"; path = Pods_FTButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91697F94FCA5128D25CD33B993FDEFB /* Pods-FTButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTButton_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -89,23 +93,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D532BCDC244F51C4F4331296F6B474BA /* Frameworks */ = {
+		C634966A60927B2FAB5D7017D43C7FC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB8D85B36AE82D516DEA65247BE566FA /* Foundation.framework in Frameworks */,
+				F4EEC3EA57F3B8D60E68C5C10F962F80 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07143EF530F3FFA465117CB766D5ED7D /* Pod */ = {
+		15B5FFE9699E7D0167C932F2F9766FEF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4E975FF9EDD17EC349C3AEB3370F3FBA /* FTButton.podspec */,
-				717D307AF041E1CCD7949D07D9A92E9C /* LICENSE */,
-				36EDF02B48E8921B18CD0D42C9B41DB0 /* README.md */,
+				BEEF1B565DC2BF1D8A04498DF283D8E5 /* FTButton.podspec */,
+				B8D52089760D406571CED0D061087265 /* LICENSE */,
+				75016745729C69D8B4D812006652100B /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -136,17 +140,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		55275B477C7EFF556F470A0946BD2A53 /* FTButton */ = {
-			isa = PBXGroup;
-			children = (
-				B44B49494CA1145C4B70DE1647443783 /* ReplaceMe.m */,
-				07143EF530F3FFA465117CB766D5ED7D /* Pod */,
-				7D9641474F0CDE8306E6ED6357F7A28F /* Support Files */,
-			);
-			name = FTButton;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,21 +165,6 @@
 			path = "Target Support Files/Pods-FTButton_Example";
 			sourceTree = "<group>";
 		};
-		7D9641474F0CDE8306E6ED6357F7A28F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E64AA8164330F76B354129F42E63C6C6 /* FTButton.modulemap */,
-				63133885713820A0CF48F9D4E0F561BF /* FTButton-dummy.m */,
-				1466E2E8F04BCF6600CBB2CAEDAA237F /* FTButton-Info.plist */,
-				BBC4E96C3F0C7E48DB68D15A1EF8CC95 /* FTButton-prefix.pch */,
-				53CE0285094E70E4D43777044303E71C /* FTButton-umbrella.h */,
-				950F469C4A311AFC5F17A5565B825642 /* FTButton.debug.xcconfig */,
-				C4B2F4FF1A0C205F56AD2960933A150C /* FTButton.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FTButton";
-			sourceTree = "<group>";
-		};
 		83F1EA49E55A2BCFB0985C9F24FF34CB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,19 +174,32 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AAB5ED5BD4805EBAF6E00F0AB0DB1107 /* Development Pods */ = {
+		A3FD8AF1138E44D6062FBAFEF6BE55E0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				55275B477C7EFF556F470A0946BD2A53 /* FTButton */,
+				C38797DFCEB7E51864BD58F7BFAAFDF6 /* FTButton */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C38797DFCEB7E51864BD58F7BFAAFDF6 /* FTButton */ = {
+			isa = PBXGroup;
+			children = (
+				3B0BD16D26DC5EB9C7BF409BD1CB7A5C /* CustomButton.h */,
+				249D1E8BA87500BB684DB875D9524BA4 /* CustomButton.m */,
+				6DF8DFF7D046A0E6AC4EF4C9DC74248F /* ReplaceMe.m */,
+				15B5FFE9699E7D0167C932F2F9766FEF /* Pod */,
+				E79C84E38A43DCDB5B22EE3D0145D23C /* Support Files */,
+			);
+			name = FTButton;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AAB5ED5BD4805EBAF6E00F0AB0DB1107 /* Development Pods */,
+				A3FD8AF1138E44D6062FBAFEF6BE55E0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				3D5F2AC01EF095B8475C740B8AC2BF2E /* Products */,
 				83F1EA49E55A2BCFB0985C9F24FF34CB /* Targets Support Files */,
@@ -223,22 +214,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E79C84E38A43DCDB5B22EE3D0145D23C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B362A4D9711237D504DE52FC0883B4B2 /* FTButton.modulemap */,
+				5F9F48D13D5A270311A6874B879FC05C /* FTButton-dummy.m */,
+				636831A33349B5AADDC39CA2D701C98B /* FTButton-Info.plist */,
+				C41024DBD2EF927B8A205D8138F3FA8E /* FTButton-prefix.pch */,
+				E5760EBEB1CBD4A51AEF0B3E3DE95E27 /* FTButton-umbrella.h */,
+				265F8E0C9D82BBEE47F36F8D11397AAF /* FTButton.debug.xcconfig */,
+				8DD98EFB96B158B1EE79F6E437E8C607 /* FTButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FTButton";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4DB406597B7E5F32DF3CC020EA584322 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B7B5D7E8D0D0CCA66F42EA1AC4072D2 /* FTButton-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A865FB87C08D78F854AFBD5E9D07F6F6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FAED53133A2B67E1124B32191D78784A /* Pods-FTButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD8AC47C44E2973FD9B1FBBB186A34B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21B997B23D90D84006B0DFAA11172A5 /* CustomButton.h in Headers */,
+				CCF94D8F26E4055061A5A274D9512791 /* FTButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +262,12 @@
 /* Begin PBXNativeTarget section */
 		B303EBA9C503869E8BBCD33E638D7613 /* FTButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59B1716C4589E3D835C6D938E26BA366 /* Build configuration list for PBXNativeTarget "FTButton" */;
+			buildConfigurationList = 28FA302A4BC1E6388F5984D01A33520C /* Build configuration list for PBXNativeTarget "FTButton" */;
 			buildPhases = (
-				4DB406597B7E5F32DF3CC020EA584322 /* Headers */,
-				2BE52F7444FAAFF838EC1D08D268B57A /* Sources */,
-				D532BCDC244F51C4F4331296F6B474BA /* Frameworks */,
-				D811C13E1AE247ED0221746C02BB3318 /* Resources */,
+				AAD8AC47C44E2973FD9B1FBBB186A34B /* Headers */,
+				55397ED3FEEEB68B32F6415A358AA29D /* Sources */,
+				C634966A60927B2FAB5D7017D43C7FC4 /* Frameworks */,
+				B1CC2CEEA07E3044D8F03FF0CF305B28 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +290,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				00FA7A1D1F7479948C209C8551005A0B /* PBXTargetDependency */,
+				CD540754B02FF4AC786AA1A9C20F8303 /* PBXTargetDependency */,
 			);
 			name = "Pods-FTButton_Tests";
 			productName = Pods_FTButton_Tests;
@@ -302,7 +309,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				614CB1C2A21A8EAFE03613060459ED56 /* PBXTargetDependency */,
+				1A6F48ED4C82EA08430632402E18110D /* PBXTargetDependency */,
 			);
 			name = "Pods-FTButton_Example";
 			productName = Pods_FTButton_Example;
@@ -353,7 +360,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D811C13E1AE247ED0221746C02BB3318 /* Resources */ = {
+		B1CC2CEEA07E3044D8F03FF0CF305B28 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +370,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2BE52F7444FAAFF838EC1D08D268B57A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2750FB0DCF88D7A0D382820B5FAE97C /* FTButton-dummy.m in Sources */,
-				A6D588BA7AADC884B855258B527DF8A7 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2D447BDE6B93751415B7A294702BDA49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				054D89AFA71538A2A5784AB34AE975B2 /* Pods-FTButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55397ED3FEEEB68B32F6415A358AA29D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA29B465EBA263D7EC6EA922FC85947 /* CustomButton.m in Sources */,
+				2B2650F5CB477D94A9D11DC419EDE6A6 /* FTButton-dummy.m in Sources */,
+				8A93F093F06C9C9D278FBCA95598B957 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,21 +399,52 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		00FA7A1D1F7479948C209C8551005A0B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-FTButton_Example";
-			target = EB2E9CC8C6C366BCD708A3CBA379451B /* Pods-FTButton_Example */;
-			targetProxy = 85ECFDC2B3DF7B3334122471EFBD47AA /* PBXContainerItemProxy */;
-		};
-		614CB1C2A21A8EAFE03613060459ED56 /* PBXTargetDependency */ = {
+		1A6F48ED4C82EA08430632402E18110D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FTButton;
 			target = B303EBA9C503869E8BBCD33E638D7613 /* FTButton */;
-			targetProxy = 74FEBB80BD9D38E0B6662B8FD1E95058 /* PBXContainerItemProxy */;
+			targetProxy = 7F345382204C0607B51E19C8CF006CE5 /* PBXContainerItemProxy */;
+		};
+		CD540754B02FF4AC786AA1A9C20F8303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FTButton_Example";
+			target = EB2E9CC8C6C366BCD708A3CBA379451B /* Pods-FTButton_Example */;
+			targetProxy = 34230082DD03C4A34D73B8DF1CF38621 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		041CF397256CFD7BAB2F70E8E3969B1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 265F8E0C9D82BBEE47F36F8D11397AAF /* FTButton.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FTButton/FTButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FTButton/FTButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FTButton/FTButton.modulemap";
+				PRODUCT_MODULE_NAME = FTButton;
+				PRODUCT_NAME = FTButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2FA49CFCD53A505254C40AAF462157B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48801F1086D06524984D3D8D440FAAB9 /* Pods-FTButton_Tests.debug.xcconfig */;
@@ -466,38 +505,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		57E5BB7A663C5D40CFFFF3B9538BE674 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4B2F4FF1A0C205F56AD2960933A150C /* FTButton.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FTButton/FTButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FTButton/FTButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FTButton/FTButton.modulemap";
-				PRODUCT_MODULE_NAME = FTButton;
-				PRODUCT_NAME = FTButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -666,9 +673,9 @@
 			};
 			name = Debug;
 		};
-		E3F83A3495392E39455A1CBFF60AA8C7 /* Debug */ = {
+		EE73FD9AB492F8BF430966755314A17E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 950F469C4A311AFC5F17A5565B825642 /* FTButton.debug.xcconfig */;
+			baseConfigurationReference = 8DD98EFB96B158B1EE79F6E437E8C607 /* FTButton.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -692,10 +699,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		F81E4A072A0E012B43F94115AEE537A4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -734,6 +742,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		28FA302A4BC1E6388F5984D01A33520C /* Build configuration list for PBXNativeTarget "FTButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041CF397256CFD7BAB2F70E8E3969B1E /* Debug */,
+				EE73FD9AB492F8BF430966755314A17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		44AEFCC3E3AF23E454AC6019D3A4B130 /* Build configuration list for PBXNativeTarget "Pods-FTButton_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -748,15 +765,6 @@
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		59B1716C4589E3D835C6D938E26BA366 /* Build configuration list for PBXNativeTarget "FTButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E3F83A3495392E39455A1CBFF60AA8C7 /* Debug */,
-				57E5BB7A663C5D40CFFFF3B9538BE674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
