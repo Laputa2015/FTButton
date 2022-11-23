@@ -1,0 +1,6 @@
+framework module FTButton {
+  umbrella header "FTButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

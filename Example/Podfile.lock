@@ -1,0 +1,16 @@
+PODS:
+  - FTButton (0.1.0)
+
+DEPENDENCIES:
+  - FTButton (from `../`)
+
+EXTERNAL SOURCES:
+  FTButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FTButton: f9cd3e82a1b2c11bed4f513749a0d704ce5ee18d
+
+PODFILE CHECKSUM: 7000e38640e191232d8d94d3d06f48263b6c1ae8
+
+COCOAPODS: 1.11.3
